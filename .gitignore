@@ -1,0 +1,8 @@
+.vs
+XichLip.WebApi/logs
+XichLip.DB/
+XichLip.WebApi/bin
+XichLip.WebApi/obj/Debug/
+XichLip.Core/obj/
+XichLip.WebApi/obj/
+XichLip.Core
