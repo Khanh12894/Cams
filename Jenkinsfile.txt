@@ -6,25 +6,29 @@ node {
         stage ('Clone') {
         	checkout scm
         }
-        stage('Build') {
-            steps {
-                // Get some code from a GitHub repository
-                git 'https://github.com/Khanh12894/Cams.git'
-
-                // Run Maven on a Unix agent.
-                //sh "mvn -Dmaven.test.failure.ignore=true clean package"
-
-                // To run Maven on a Windows agent, use
-                 bat "mvn -Dmaven.test.failure.ignore=true clean package"
-            }
-
-            post {
-                // If Maven was able to run the tests, even if some of the test
-                // failed, record the test results and archive the jar file.
-                success {
-                    junit '**/target/surefire-reports/TEST-*.xml'
-                    archiveArtifacts 'target/*.jar'
+        stage ('Build') {
+            when {
+                expression {
+                    GIT_BRANCH = 'origin/' + sh(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD').trim()
+                    return GIT_BRANCH == 'origin/master' || params.FORCE_FULL_BUILD
                 }
+            }
+            steps {
+                // Freestyle build trigger calls a list of jobs
+                // Pipeline build() step only calls one job
+                // To run all three jobs in parallel, we use "parallel" step
+                // https://jenkins.io/doc/pipeline/examples/#jobs-in-parallel
+                parallel (
+                    linux: {
+                        build job: 'full-build-linux', parameters: [string(name: 'GIT_BRANCH_NAME', value: GIT_BRANCH)]
+                    },
+                    mac: {
+                        build job: 'full-build-mac', parameters: [string(name: 'GIT_BRANCH_NAME', value: GIT_BRANCH)]
+                    },
+                    windows: {
+                        build job: 'full-build-windows', parameters: [string(name: 'master', value: GIT_BRANCH)]
+                    },
+                    failFast: false)
             }
         }
         stage ('Tests') {
