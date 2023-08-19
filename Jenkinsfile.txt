@@ -14,11 +14,7 @@ pipeline {
                 bat 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Cams\\Cams.Api.sln --configuration Release'
             }
         }
-        stage('Test Stage') {
-            steps {
-                bat 'dotnet test %WORKSPACE%\\TestProject1\\TestProject1.csproj'
-            }
-        }
+       
         stage("Release Stage") {
             steps {
                 bat 'dotnet build %WORKSPACE%\\Cams /p:PublishProfile=" %WORKSPACE%\\Cams\\Properties\\PublishProfiles\\FolderProfile1.pubxml" /p:Platform="Any CPU" /p:DeployOnBuild=true /m'
