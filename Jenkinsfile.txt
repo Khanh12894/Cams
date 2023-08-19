@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout Stage') {
             steps {
-                url: 'https://github.com/Khanh12894/Cams.git', branch: 'master'
+               git credentialsId: '5ba5e0da-116a-47df-8e8c-639f4654358c', url: 'https://github.com/Khanh12894/Cams.git', branch: 'master'
             }
         }
         stage('Build Stage') {
