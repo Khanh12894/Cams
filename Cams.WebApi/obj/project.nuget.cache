@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rBpKtahNDMHaiTIvum/ybUv9FirdK3dWpADrHlbsX4pwK4iMpiADdz/TH1L2tymdZfamaAzM6E2IjQxkXg6Y5A==",
+  "dgSpecHash": "6lEQUQecU0xFldgUKeviiPIA4Gj5OwLFohOaogCJa0GVnAw0p9rjXCfeEFrnn6FEaa3mJ/IlbfK/3wYgAJj14w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\CamJenkin\\XichLip.WebApi\\Cams.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\CamJenkin\\Cams.WebApi\\Cams.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\3.1.2\\aspnetcore.healthchecks.ui.client.3.1.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\3.1.3\\aspnetcore.healthchecks.ui.core.3.1.3.nupkg.sha512",

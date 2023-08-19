@@ -6474,11 +6474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\CamJenkin\\XichLip.Core\\Cams.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\CamJenkin\\Cams.Core\\Cams.Core.csproj",
       "projectName": "Cams.Core",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\CamJenkin\\XichLip.Core\\Cams.Core.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\CamJenkin\\Cams.Core\\Cams.Core.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\CamJenkin\\XichLip.Core\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\CamJenkin\\Cams.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\CamJenkin\\XichLip.WebApi\\Cams.WebApi.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\CamJenkin\\Cams.WebApi\\Cams.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\CamJenkin\\XichLip.WebApi\\Cams.WebApi.csproj": {
+    "C:\\Users\\Admin\\Desktop\\CamJenkin\\Cams.WebApi\\Cams.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\CamJenkin\\XichLip.WebApi\\Cams.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\CamJenkin\\Cams.WebApi\\Cams.WebApi.csproj",
         "projectName": "Cams.WebApi",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\CamJenkin\\XichLip.WebApi\\Cams.WebApi.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\CamJenkin\\Cams.WebApi\\Cams.WebApi.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\CamJenkin\\XichLip.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\CamJenkin\\Cams.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

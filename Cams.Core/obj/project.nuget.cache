@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ip7sUcnxD8+EM6ZOUflJJypMOXZ8OHujL2UxoM48NMQErVwWrMlaBL1Ik8r9zcR+a4nSlGzlmc9iIVqyUAeO9g==",
+  "dgSpecHash": "3x48hocY5ustv7EAdaPdXaQpSfCFJ6j7OHSI5UZkDMqVLXyI3CjzQ0CAj4R1gqpkTkSJ6zu2ONiTwolBrrSHVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\CamJenkin\\XichLip.Core\\Cams.Core.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\CamJenkin\\Cams.Core\\Cams.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",
