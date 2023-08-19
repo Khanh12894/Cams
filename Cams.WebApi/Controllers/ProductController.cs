@@ -50,7 +50,7 @@ namespace XichLip.WebApi.Controllers
             _emailSender = emailSender;
         }
         /// <summary>
-        /// khanh
+        /// khanh tragnwe
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
