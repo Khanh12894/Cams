@@ -1,56 +1,36 @@
-node {
- 	// Clean workspace before doing anything
-    deleteDir()
-
-    try {
-        stage ('Clone') {
-        	checkout scm
-        }
-        stage ('Build') {
-            when {
-                expression {
-                    GIT_BRANCH = 'origin/' + sh(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD').trim()
-                    return GIT_BRANCH == 'origin/master' || params.FORCE_FULL_BUILD
-                }
-            }
+pipeline {
+    agent any
+    environment {
+        dotnet = 'C:\\Program Files\\dotnet\\dotnet.exe'
+    }
+    stages {
+        stage('Checkout Stage') {
             steps {
-                // Freestyle build trigger calls a list of jobs
-                // Pipeline build() step only calls one job
-                // To run all three jobs in parallel, we use "parallel" step
-                // https://jenkins.io/doc/pipeline/examples/#jobs-in-parallel
-                parallel (
-                    linux: {
-                        build job: 'full-build-linux', parameters: [string(name: 'GIT_BRANCH_NAME', value: GIT_BRANCH)]
-                    },
-                    mac: {
-                        build job: 'full-build-mac', parameters: [string(name: 'GIT_BRANCH_NAME', value: GIT_BRANCH)]
-                    },
-                    windows: {
-                        build job: 'full-build-windows', parameters: [string(name: 'master', value: GIT_BRANCH)]
-                    },
-                    failFast: false)
+                git credentialsId: '5ba5e0da-116a-47df-8e8c-639f4654358c', url: 'https://github.com/Jaydeep-007/JenkinsWebApplicationDemo.git', branch: 'main'
             }
         }
-        stage ('Tests') {
-	        parallel 'static': {
-	            sh "echo 'shell scripts to run static tests...'"
-	        },
-	        'unit': {
-	            sh "echo 'shell scripts to run unit tests...'"
-	        },
-	        'integration': {
-	            sh "echo 'shell scripts to run integration tests...'"
-	        }
+        stage('Build Stage') {
+            steps {
+                bat 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\TestPipeline\\JenkinsWebApplicationDemo.sln --configuration Release'
+            }
         }
-      	stage ('Deploy') {
-            sh "echo 'shell scripts to deploy to server...'"
-      	}
-    } catch (err) {
-        currentBuild.result = 'FAILED'
-        throw err
+        stage('Test Stage') {
+            steps {
+                bat 'dotnet test %WORKSPACE%\\TestProject1\\TestProject1.csproj'
+            }
+        }
+        stage("Release Stage") {
+            steps {
+                bat 'dotnet build %WORKSPACE%\\JenkinsWebApplicationDemo.sln /p:PublishProfile=" %WORKSPACE%\\JenkinsWebApplicationDemo\\Properties\\PublishProfiles\\FolderProfile.pubxml" /p:Platform="Any CPU" /p:DeployOnBuild=true /m'
+            }
+        }
+        stage('Deploy Stage') {
+            steps {
+                //Deploy application on IIS
+                bat 'net stop "w3svc"'
+                bat '"C:\\Program Files (x86)\\IIS\\Microsoft Web Deploy V3\\msdeploy.exe" -verb:sync -source:package="%WORKSPACE%\\JenkinsWebApplicationDemo\\bin\\Debug\\net6.0\\JenkinsWebApplicationDemo.zip" -dest:auto -setParam:"IIS Web Application Name"="Demo.Web" -skip:objectName=filePath,absolutePath=".\\\\PackagDemoeTmp\\\\Web.config$" -enableRule:DoNotDelete -allowUntrusted=true'
+                bat 'net start "w3svc"'
+            }
+        }
     }
 }
-
-
-
-
