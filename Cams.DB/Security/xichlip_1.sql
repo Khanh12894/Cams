@@ -1,3 +1,0 @@
-﻿CREATE LOGIN [xichlip]
-    WITH PASSWORD = N'$3+$icp5n0 o|?7BbyqY.{m_msFT7_&#$!~<zquphdbGqTc=', SID = 0x2655C50BB787F4489A41467D491BA106, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
-
