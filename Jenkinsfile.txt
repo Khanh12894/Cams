@@ -6,12 +6,12 @@ pipeline {
     stages {
         stage('Checkout Stage') {
             steps {
-                git credentialsId: '5ba5e0da-116a-47df-8e8c-639f4654358c', url: 'https://github.com/Jaydeep-007/JenkinsWebApplicationDemo.git', branch: 'main'
+                url: 'https://github.com/Khanh12894/Cams.git', branch: 'master'
             }
         }
         stage('Build Stage') {
             steps {
-                bat 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\TestPipeline\\JenkinsWebApplicationDemo.sln --configuration Release'
+                bat 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Cams\\JenkinsWebApplicationDemo.sln --configuration Release'
             }
         }
         stage('Test Stage') {
@@ -21,7 +21,7 @@ pipeline {
         }
         stage("Release Stage") {
             steps {
-                bat 'dotnet build %WORKSPACE%\\JenkinsWebApplicationDemo.sln /p:PublishProfile=" %WORKSPACE%\\JenkinsWebApplicationDemo\\Properties\\PublishProfiles\\FolderProfile.pubxml" /p:Platform="Any CPU" /p:DeployOnBuild=true /m'
+                bat 'dotnet build %WORKSPACE%\\JenkinsWebApplicationDemo.sln /p:PublishProfile=" %WORKSPACE%\\JenkinsWebApplicationDemo\\Properties\\PublishProfiles\\FolderProfile1.pubxml" /p:Platform="Any CPU" /p:DeployOnBuild=true /m'
             }
         }
         stage('Deploy Stage') {
