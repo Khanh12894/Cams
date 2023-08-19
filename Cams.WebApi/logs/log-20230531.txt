@@ -1,0 +1,20 @@
+2023-05-31 11:29:21.923 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-31 11:29:21.961 +07:00 [Information] Hosting environment: "Development"
+2023-05-31 11:29:21.964 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-31 14:42:52.112 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-31 14:42:52.142 +07:00 [Information] Hosting environment: "Development"
+2023-05-31 14:42:52.144 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-31 14:43:43.487 +07:00 [Error] Could not find stored procedure 'sec_User_Tokens_Save'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at XichLip.WebApi.Repositories.UserRepositories.SaveRefreshToken(UserTokensModel model) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 459
+

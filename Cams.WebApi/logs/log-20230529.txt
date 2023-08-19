@@ -1,0 +1,92 @@
+2023-05-29 09:34:47.093 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-29 09:34:47.123 +07:00 [Information] Hosting environment: "Development"
+2023-05-29 09:34:47.126 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-29 09:36:51.346 +07:00 [Error] Procedure or function 'cat_Ward_Select_List' expects parameter '@DistrictId', which was not supplied.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at XichLip.WebApi.Repositories.WardRepository.SelectList(SearchWardModel model) in D:\XichLip\XichLip.WebApi\Repositories\WardRepository.cs:line 35
+   at XichLip.WebApi.Controllers.WardController.SelectList(SearchWardModel model) in D:\XichLip\XichLip.WebApi\Controllers\WardController.cs:line 51
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-29 09:37:16.640 +07:00 [Error] Procedure or function 'cat_Ward_Select_List' expects parameter '@DistrictId', which was not supplied.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at XichLip.WebApi.Repositories.WardRepository.SelectList(SearchWardModel model) in D:\XichLip\XichLip.WebApi\Repositories\WardRepository.cs:line 35
+   at XichLip.WebApi.Controllers.WardController.SelectList(SearchWardModel model) in D:\XichLip\XichLip.WebApi\Controllers\WardController.cs:line 51
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-29 09:37:50.973 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-29 09:37:51.005 +07:00 [Information] Hosting environment: "Development"
+2023-05-29 09:37:51.007 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-29 09:37:57.411 +07:00 [Error] Procedure or function 'cat_Ward_Select_List' expects parameter '@DistrictId', which was not supplied.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at XichLip.WebApi.Repositories.WardRepository.SelectList(SearchWardModel model) in D:\XichLip\XichLip.WebApi\Repositories\WardRepository.cs:line 35
+   at XichLip.WebApi.Controllers.WardController.SelectList(SearchWardModel model) in D:\XichLip\XichLip.WebApi\Controllers\WardController.cs:line 51
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-29 09:39:08.472 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-29 09:39:08.503 +07:00 [Information] Hosting environment: "Development"
+2023-05-29 09:39:08.510 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-29 10:01:26.571 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-29 10:01:26.602 +07:00 [Information] Hosting environment: "Development"
+2023-05-29 10:01:26.604 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-29 10:09:52.040 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-29 10:09:52.068 +07:00 [Information] Hosting environment: "Development"
+2023-05-29 10:09:52.070 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-29 14:35:56.848 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-29 14:35:56.878 +07:00 [Information] Hosting environment: "Development"
+2023-05-29 14:35:56.880 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-29 14:42:00.419 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-29 14:42:00.450 +07:00 [Information] Hosting environment: "Development"
+2023-05-29 14:42:00.453 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-29 16:26:35.934 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-29 16:26:35.968 +07:00 [Information] Hosting environment: "Development"
+2023-05-29 16:26:35.971 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-29 16:27:21.517 +07:00 [Error] Could not find stored procedure 'sec_User_Tokens_Save'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at XichLip.WebApi.Repositories.UserRepositories.SaveRefreshToken(UserTokensModel model) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 459
+

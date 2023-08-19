@@ -1,0 +1,156 @@
+2023-05-23 08:27:23.528 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-23 08:27:23.560 +07:00 [Information] Hosting environment: "Development"
+2023-05-23 08:27:23.562 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-23 08:29:28.156 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-23 08:29:28.186 +07:00 [Information] Hosting environment: "Development"
+2023-05-23 08:29:28.188 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-23 08:37:53.767 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-23 08:37:53.799 +07:00 [Information] Hosting environment: "Development"
+2023-05-23 08:37:53.802 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-23 08:44:51.304 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-23 08:44:51.346 +07:00 [Information] Hosting environment: "Development"
+2023-05-23 08:44:51.348 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-23 08:46:25.430 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-23 08:46:25.458 +07:00 [Information] Hosting environment: "Development"
+2023-05-23 08:46:25.460 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-23 11:37:01.034 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-23 11:37:01.051 +07:00 [Information] Hosting environment: "Development"
+2023-05-23 11:37:01.052 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-23 11:38:46.048 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-23 11:38:46.064 +07:00 [Information] Hosting environment: "Development"
+2023-05-23 11:38:46.064 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-23 11:38:46.562 +07:00 [Error] SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1013
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetDetailMachineUsage2(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3246
+
+2023-05-23 11:38:46.572 +07:00 [Error] One or more errors occurred. (SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.MonthProductPlanController.GetDetailMachineUsage(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 741
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetDetailMachineUsage2(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3295
+2023-05-23 11:38:59.051 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-23 11:38:59.067 +07:00 [Information] Hosting environment: "Development"
+2023-05-23 11:38:59.067 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-23 11:38:59.464 +07:00 [Error] SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1013
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetDetailMachineUsage2(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3246
+
+2023-05-23 11:38:59.468 +07:00 [Error] One or more errors occurred. (SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.MonthProductPlanController.GetDetailMachineUsage(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 741
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetDetailMachineUsage2(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3295
+2023-05-23 11:39:25.078 +07:00 [Error] SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1013
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetDetailMachineUsage2(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3246
+
+2023-05-23 11:39:25.080 +07:00 [Error] One or more errors occurred. (SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.MonthProductPlanController.GetDetailMachineUsage(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 741
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetDetailMachineUsage2(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3295
+2023-05-23 11:41:12.194 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-23 11:41:12.210 +07:00 [Information] Hosting environment: "Development"
+2023-05-23 11:41:12.210 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-23 11:42:15.987 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-23 11:42:16.006 +07:00 [Information] Hosting environment: "Development"
+2023-05-23 11:42:16.007 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-23 11:48:46.078 +07:00 [Error] Unable to cast object of type 'System.Int32' to type 'System.Int64'.
+   at Dapper.DynamicParameters.Get[T](String name) in /_/Dapper/DynamicParameters.cs:line 323
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetDetailMachineUsage2(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3288
+
+2023-05-23 11:48:46.082 +07:00 [Error] One or more errors occurred. (Unable to cast object of type 'System.Int32' to type 'System.Int64'.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.MonthProductPlanController.GetDetailMachineUsage(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 741
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Unable to cast object of type 'System.Int32' to type 'System.Int64'.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetDetailMachineUsage2(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3295
+2023-05-23 11:48:52.028 +07:00 [Error] Unable to cast object of type 'System.Int32' to type 'System.Int64'.
+   at Dapper.DynamicParameters.Get[T](String name) in /_/Dapper/DynamicParameters.cs:line 323
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetDetailMachineUsage2(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3288
+
+2023-05-23 11:48:52.030 +07:00 [Error] One or more errors occurred. (Unable to cast object of type 'System.Int32' to type 'System.Int64'.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.MonthProductPlanController.GetDetailMachineUsage(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 741
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Unable to cast object of type 'System.Int32' to type 'System.Int64'.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetDetailMachineUsage2(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3295
+2023-05-23 11:49:56.303 +07:00 [Error] Unable to cast object of type 'System.Int32' to type 'System.Int64'.
+   at Dapper.DynamicParameters.Get[T](String name) in /_/Dapper/DynamicParameters.cs:line 323
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetDetailMachineUsage2(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3288
+
+2023-05-23 11:49:56.305 +07:00 [Error] One or more errors occurred. (Unable to cast object of type 'System.Int32' to type 'System.Int64'.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.MonthProductPlanController.GetDetailMachineUsage(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 741
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Unable to cast object of type 'System.Int32' to type 'System.Int64'.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetDetailMachineUsage2(GetDetailMachineUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3295
+2023-05-23 11:59:41.524 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-23 11:59:41.543 +07:00 [Information] Hosting environment: "Development"
+2023-05-23 11:59:41.544 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-23 12:50:28.277 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-23 12:50:28.307 +07:00 [Information] Hosting environment: "Development"
+2023-05-23 12:50:28.309 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"

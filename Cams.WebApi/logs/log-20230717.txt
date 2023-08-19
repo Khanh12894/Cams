@@ -1,0 +1,159 @@
+2023-07-17 09:50:30.447 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 09:50:30.484 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 09:50:30.486 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 09:51:24.102 +07:00 [Error] Could not find stored procedure 'sec_User_Tokens_Save'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at XichLip.WebApi.Repositories.UserRepositories.SaveRefreshToken(UserTokensModel model) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 459
+
+2023-07-17 09:52:21.861 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.ImportDelivery(ImportMonthProductPlanDeleiveryModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 164
+   at XichLip.WebApi.Controllers.MonthProductPlanDeliveryController.ImportDelivery(ImportMonthProductPlanDeleiveryModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanDeliveryController.cs:line 86
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-17 09:56:11.763 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 09:56:11.797 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 09:56:11.799 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 10:02:17.181 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.ImportDelivery(ImportMonthProductPlanDeleiveryModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 164
+   at XichLip.WebApi.Controllers.MonthProductPlanDeliveryController.ImportDelivery(ImportMonthProductPlanDeleiveryModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanDeliveryController.cs:line 86
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-17 10:03:24.660 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 10:03:24.690 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 10:03:24.692 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 10:09:04.599 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 10:09:04.630 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 10:09:04.632 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 10:10:50.596 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 10:10:50.631 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 10:10:50.634 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 10:11:05.781 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.ImportDelivery(ImportMonthProductPlanDeleiveryModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 171
+   at XichLip.WebApi.Controllers.MonthProductPlanDeliveryController.ImportDelivery(ImportMonthProductPlanDeleiveryModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanDeliveryController.cs:line 86
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-17 10:11:36.086 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.ImportDelivery(ImportMonthProductPlanDeleiveryModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 171
+   at XichLip.WebApi.Controllers.MonthProductPlanDeliveryController.ImportDelivery(ImportMonthProductPlanDeleiveryModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanDeliveryController.cs:line 86
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-17 10:12:15.848 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 10:12:15.880 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 10:12:15.882 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 10:15:11.681 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 10:15:11.715 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 10:15:11.717 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 10:37:41.258 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 10:37:41.288 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 10:37:41.291 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 10:40:04.635 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 10:40:04.666 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 10:40:04.668 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 10:42:52.303 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 10:42:52.333 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 10:42:52.335 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 10:49:23.753 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 10:49:23.782 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 10:49:23.784 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 10:49:56.903 +07:00 [Error] Worksheet position out of range.
+   at OfficeOpenXml.ExcelWorksheets.get_Item(Int32 PositionID)
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.DownLoad(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 353
+
+2023-07-17 10:49:56.967 +07:00 [Error] Worksheet position out of range.
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.DownLoad(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 375
+   at XichLip.WebApi.Controllers.MonthProductPlanDeliveryController.download(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanDeliveryController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-17 10:50:05.282 +07:00 [Error] Worksheet position out of range.
+   at OfficeOpenXml.ExcelWorksheets.get_Item(Int32 PositionID)
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.DownLoad(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 353
+
+2023-07-17 10:50:05.335 +07:00 [Error] Worksheet position out of range.
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.DownLoad(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 375
+   at XichLip.WebApi.Controllers.MonthProductPlanDeliveryController.download(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanDeliveryController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-17 10:50:54.403 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 10:50:54.438 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 10:50:54.441 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 10:59:52.557 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 10:59:52.588 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 10:59:52.589 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 11:07:21.116 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 11:07:21.144 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 11:07:21.146 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 11:18:24.047 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 11:18:24.110 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 11:18:24.113 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 11:36:36.994 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 11:36:37.024 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 11:36:37.026 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 11:53:31.394 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 11:53:31.426 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 11:53:31.428 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 11:53:37.439 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.DownLoad(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 355
+
+2023-07-17 11:53:37.484 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.DownLoad(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 376
+   at XichLip.WebApi.Controllers.MonthProductPlanDeliveryController.download(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanDeliveryController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-17 11:55:04.585 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.DownLoad(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 355
+
+2023-07-17 11:55:04.620 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.DownLoad(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 376
+   at XichLip.WebApi.Controllers.MonthProductPlanDeliveryController.download(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanDeliveryController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-17 11:55:56.513 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 11:55:56.548 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 11:55:56.556 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-17 11:55:57.531 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.DownLoad(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 355
+
+2023-07-17 11:55:57.573 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanDeliveryRepository.DownLoad(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanDeliveryRepository.cs:line 376
+   at XichLip.WebApi.Controllers.MonthProductPlanDeliveryController.download(MonthProductPlanDeliveryDownloadModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanDeliveryController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-17 12:05:01.474 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-17 12:05:01.532 +07:00 [Information] Hosting environment: "Development"
+2023-07-17 12:05:01.544 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"

@@ -1,0 +1,183 @@
+2023-07-10 10:08:14.767 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 10:08:14.804 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 10:08:14.806 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 10:17:30.945 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 10:17:30.974 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 10:17:30.975 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 10:27:23.168 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 10:27:23.240 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 10:27:23.243 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 10:30:44.434 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 10:30:44.464 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 10:30:44.466 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 11:30:42.649 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 11:30:42.692 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 11:30:42.702 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 11:34:01.727 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 11:34:01.760 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 11:34:01.769 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 11:34:21.120 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1207
+
+2023-07-10 11:34:21.180 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1241
+   at XichLip.WebApi.Controllers.MonthProductPlanController.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 921
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-10 11:34:55.202 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1207
+
+2023-07-10 11:34:55.244 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1241
+   at XichLip.WebApi.Controllers.MonthProductPlanController.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 921
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-10 11:35:11.782 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1207
+
+2023-07-10 11:35:11.825 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1241
+   at XichLip.WebApi.Controllers.MonthProductPlanController.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 921
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-10 11:35:37.166 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1207
+
+2023-07-10 11:35:37.207 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1241
+   at XichLip.WebApi.Controllers.MonthProductPlanController.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 921
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-10 11:36:17.032 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1207
+
+2023-07-10 11:36:17.071 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1241
+   at XichLip.WebApi.Controllers.MonthProductPlanController.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 921
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-10 11:39:32.547 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 11:39:32.576 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 11:39:32.578 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 11:40:15.839 +07:00 [Error] Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1204
+
+2023-07-10 11:40:15.885 +07:00 [Error] Collection was modified; enumeration operation may not execute.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1241
+   at XichLip.WebApi.Controllers.MonthProductPlanController.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 921
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-10 11:40:45.129 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 11:40:45.187 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 11:40:45.189 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 11:47:55.810 +07:00 [Error] Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1204
+
+2023-07-10 11:47:55.859 +07:00 [Error] Collection was modified; enumeration operation may not execute.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1241
+   at XichLip.WebApi.Controllers.MonthProductPlanController.ListPlanDetailExport(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 921
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-10 12:00:39.604 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 12:00:39.642 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 12:00:39.644 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 12:12:24.440 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 12:12:24.484 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 12:12:24.490 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 13:33:44.981 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 13:33:45.011 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 13:33:45.013 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 13:43:04.953 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 13:43:04.984 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 13:43:04.986 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 13:46:46.745 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 13:46:46.777 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 13:46:46.780 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 14:18:31.926 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:18:31.964 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 14:18:31.966 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 14:21:31.528 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:21:31.557 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 14:21:31.558 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 14:25:44.857 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:25:44.893 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 14:25:44.895 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 14:28:21.184 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:28:21.213 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 14:28:21.214 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 14:30:23.357 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:30:23.387 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 14:30:23.390 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 14:41:24.858 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:41:24.890 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 14:41:24.892 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 14:52:45.078 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:52:45.108 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 14:52:45.110 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 14:58:04.241 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:58:04.270 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 14:58:04.272 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 16:36:36.028 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 16:36:36.061 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 16:36:36.063 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 16:39:24.780 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 16:39:24.809 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 16:39:24.812 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 16:45:50.703 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 16:45:50.733 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 16:45:50.735 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 16:48:13.242 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 16:48:13.269 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 16:48:13.271 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 17:03:57.939 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 17:03:57.969 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 17:03:57.971 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 17:05:00.168 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 17:05:00.197 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 17:05:00.198 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 17:12:07.353 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 17:12:07.381 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 17:12:07.384 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 17:30:34.228 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 17:30:34.260 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 17:30:34.262 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 17:35:44.781 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 17:35:44.814 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 17:35:44.816 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 17:40:21.177 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 17:40:21.204 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 17:40:21.207 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 17:43:08.109 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 17:43:08.139 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 17:43:08.141 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 17:47:43.380 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 17:47:43.410 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 17:47:43.412 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 17:52:09.181 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 17:52:09.216 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 17:52:09.222 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 17:57:14.162 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 17:57:14.193 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 17:57:14.196 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 17:58:56.772 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 17:58:56.803 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 17:58:56.805 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-10 18:05:32.130 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-10 18:05:32.159 +07:00 [Information] Hosting environment: "Development"
+2023-07-10 18:05:32.162 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"

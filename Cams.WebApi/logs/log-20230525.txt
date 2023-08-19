@@ -1,0 +1,75 @@
+2023-05-25 09:28:32.846 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 09:28:32.915 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 09:28:32.917 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-25 10:39:48.020 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 10:39:48.052 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 10:39:48.054 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-25 10:41:34.375 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 10:41:34.418 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 10:41:34.421 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-25 10:43:45.759 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 10:43:45.791 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 10:43:45.793 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-25 10:45:12.972 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 10:45:13.002 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 10:45:13.004 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-25 10:54:21.920 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 10:54:21.950 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 10:54:21.953 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-25 10:58:09.348 +07:00 [Error] There was an error generating the XML document.
+   at WorkSimple.Infrastructure.Utils.Utils.SerializeXml[T](Object obj)
+   at XichLip.WebApi.Repositories.MaterialRepository.MaterialImport(ImportLaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MaterialRepository.cs:line 238
+   at XichLip.WebApi.Controllers.MaterialController.Import(ImportLaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\MaterialController.cs:line 227
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Unable to cast object of type 'XichLip.WebApi.Models.Material.MaterialModel' to type 'System.Collections.Generic.List`1[XichLip.WebApi.Models.Material.MaterialImportModel]'.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterList1.Write4_ArrayOfMaterialImportModel(Object o)
+2023-05-25 10:59:04.391 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 10:59:04.419 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 10:59:04.421 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-25 10:59:13.325 +07:00 [Error] There was an error generating the XML document.
+   at WorkSimple.Infrastructure.Utils.Utils.SerializeXml[T](Object obj)
+   at XichLip.WebApi.Repositories.MaterialRepository.MaterialImport(ImportLaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MaterialRepository.cs:line 238
+   at XichLip.WebApi.Controllers.MaterialController.Import(ImportLaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\MaterialController.cs:line 227
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Unable to cast object of type 'XichLip.WebApi.Models.Material.MaterialModel' to type 'System.Collections.Generic.List`1[XichLip.WebApi.Models.Material.MaterialModel]'.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterList1.Write5_ArrayOfMaterialModel(Object o)
+2023-05-25 10:59:36.304 +07:00 [Error] There was an error generating the XML document.
+   at WorkSimple.Infrastructure.Utils.Utils.SerializeXml[T](Object obj)
+   at XichLip.WebApi.Repositories.MaterialRepository.MaterialImport(ImportLaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MaterialRepository.cs:line 238
+   at XichLip.WebApi.Controllers.MaterialController.Import(ImportLaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\MaterialController.cs:line 227
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Unable to cast object of type 'XichLip.WebApi.Models.Material.MaterialModel' to type 'System.Collections.Generic.List`1[XichLip.WebApi.Models.Material.MaterialModel]'.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterList1.Write5_ArrayOfMaterialModel(Object o)
+2023-05-25 11:02:35.502 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 11:02:35.532 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 11:02:35.534 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-25 11:13:21.078 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 11:13:21.107 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 11:13:21.109 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-25 11:26:51.724 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 11:26:51.798 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 11:26:51.802 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-25 11:36:15.660 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 11:36:15.690 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 11:36:15.692 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-25 11:42:25.714 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 11:42:25.743 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 11:42:25.746 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-25 13:54:02.427 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 13:54:02.457 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 13:54:02.461 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-25 17:34:03.202 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-25 17:34:03.240 +07:00 [Information] Hosting environment: "Development"
+2023-05-25 17:34:03.245 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"

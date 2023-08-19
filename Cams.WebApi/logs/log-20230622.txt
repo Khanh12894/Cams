@@ -1,0 +1,83 @@
+2023-06-22 13:49:46.167 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-22 13:49:46.233 +07:00 [Information] Hosting environment: "Development"
+2023-06-22 13:49:46.235 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-22 13:51:23.892 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-22 13:51:23.922 +07:00 [Information] Hosting environment: "Development"
+2023-06-22 13:51:23.924 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-22 13:56:36.944 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-22 13:56:36.971 +07:00 [Information] Hosting environment: "Development"
+2023-06-22 13:56:36.972 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-22 14:41:58.893 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-22 14:41:58.928 +07:00 [Information] Hosting environment: "Development"
+2023-06-22 14:41:58.930 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-22 14:43:47.394 +07:00 [Error] Unable to cast object of type 'SelectListIterator`2[XichLip.WebApi.Models.MonthProductPlan.MonthProductPlanTPPart,System.Collections.Generic.List`1[XichLip.WebApi.Models.MonthProductPlan.MonthProductPlanTPPart]]' to type 'System.Collections.Generic.IEnumerable`1[XichLip.WebApi.Models.MonthProductPlan.MonthProductPlanTPPart]'.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.PartMonthProductPlan(List`1 model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 4698
+   at XichLip.WebApi.Controllers.MonthProductPlanController.PartMonthProductPlan(List`1 models, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 881
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-06-22 14:45:39.462 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-22 14:45:39.491 +07:00 [Information] Hosting environment: "Development"
+2023-06-22 14:45:39.493 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-22 14:45:43.632 +07:00 [Error] Unable to cast object of type 'SelectListIterator`2[XichLip.WebApi.Models.MonthProductPlan.MonthProductPlanTPPart,System.Collections.Generic.IEnumerable`1[XichLip.WebApi.Models.MonthProductPlan.MonthProductPlanTPPart]]' to type 'System.Collections.Generic.IEnumerable`1[XichLip.WebApi.Models.MonthProductPlan.MonthProductPlanTPPart]'.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.PartMonthProductPlan(List`1 model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 4698
+   at XichLip.WebApi.Controllers.MonthProductPlanController.PartMonthProductPlan(List`1 models, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 881
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-06-22 14:46:31.254 +07:00 [Error] Unable to cast object of type 'SelectListIterator`2[XichLip.WebApi.Models.MonthProductPlan.MonthProductPlanTPPart,System.Collections.Generic.IEnumerable`1[XichLip.WebApi.Models.MonthProductPlan.MonthProductPlanTPPart]]' to type 'System.Collections.Generic.IEnumerable`1[XichLip.WebApi.Models.MonthProductPlan.MonthProductPlanTPPart]'.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.PartMonthProductPlan(List`1 model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 4698
+   at XichLip.WebApi.Controllers.MonthProductPlanController.PartMonthProductPlan(List`1 models, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 881
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-06-22 14:51:03.918 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-22 14:51:03.952 +07:00 [Information] Hosting environment: "Development"
+2023-06-22 14:51:03.954 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-22 14:51:11.000 +07:00 [Error] Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.PartMonthProductPlan(List`1 model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 4698
+   at XichLip.WebApi.Controllers.MonthProductPlanController.PartMonthProductPlan(List`1 models, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 881
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-06-22 14:51:36.776 +07:00 [Error] Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.PartMonthProductPlan(List`1 model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 4698
+   at XichLip.WebApi.Controllers.MonthProductPlanController.PartMonthProductPlan(List`1 models, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 881
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-06-22 14:52:51.570 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-22 14:52:51.602 +07:00 [Information] Hosting environment: "Development"
+2023-06-22 14:52:51.605 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-22 14:55:45.003 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-22 14:55:45.032 +07:00 [Information] Hosting environment: "Development"
+2023-06-22 14:55:45.036 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-22 14:56:56.339 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-22 14:56:56.369 +07:00 [Information] Hosting environment: "Development"
+2023-06-22 14:56:56.371 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-22 16:17:31.060 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-22 16:17:31.096 +07:00 [Information] Hosting environment: "Development"
+2023-06-22 16:17:31.100 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"

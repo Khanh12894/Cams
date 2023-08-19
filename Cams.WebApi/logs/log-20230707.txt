@@ -1,0 +1,34 @@
+2023-07-07 09:58:33.101 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-07 09:58:33.148 +07:00 [Information] Hosting environment: "Development"
+2023-07-07 09:58:33.150 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-07 10:01:47.908 +07:00 [Error] Procedure or function mpp_MonthProductPlan_Detail_KH_Run_GetList has too many arguments specified.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1013
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListMonthProductPlanDetailKHRun(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1318
+
+2023-07-07 10:01:47.980 +07:00 [Error] Procedure or function mpp_MonthProductPlan_Detail_KH_Run_GetList has too many arguments specified.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.ListMonthProductPlanDetailKHRun(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 1724
+   at XichLip.WebApi.BusinessObject.MonthProductPlanBO.GetRunKeHoachChiTiet(MonthProductPlanRequestModel model, Int64 currentUserId) in D:\XichLip\XichLip.WebApi\BusinessObject\MonthProductPlanBO.RunKeHoach.cs:line 653
+   at XichLip.WebApi.Controllers.MonthProductPlanController.ListPlanRunningDetail(MonthProductPlanRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 271
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-07 10:20:15.416 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-07 10:20:15.444 +07:00 [Information] Hosting environment: "Development"
+2023-07-07 10:20:15.447 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-07 10:23:46.829 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-07 10:23:46.857 +07:00 [Information] Hosting environment: "Development"
+2023-07-07 10:23:46.860 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-07 10:46:32.232 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-07 10:46:32.264 +07:00 [Information] Hosting environment: "Development"
+2023-07-07 10:46:32.266 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"

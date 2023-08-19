@@ -1,0 +1,177 @@
+2023-05-30 10:27:10.121 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-30 10:27:10.165 +07:00 [Information] Hosting environment: "Development"
+2023-05-30 10:27:10.169 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-30 10:28:22.281 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-30 10:28:22.312 +07:00 [Information] Hosting environment: "Development"
+2023-05-30 10:28:22.316 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-30 10:28:33.856 +07:00 [Error] Could not find stored procedure 'sec_User_Tokens_Save'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at XichLip.WebApi.Repositories.UserRepositories.SaveRefreshToken(UserTokensModel model) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 459
+
+2023-05-30 10:28:47.396 +07:00 [Error] Procedure or function 'set_LaborMachineQuotaSetting_List' expects parameter '@Keyword', which was not supplied.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.Save(LaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 431
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.Create(LaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-30 10:29:12.892 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-30 10:29:12.927 +07:00 [Information] Hosting environment: "Development"
+2023-05-30 10:29:12.929 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-30 10:32:58.434 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.Save(LaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 432
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.Create(LaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-30 10:33:36.389 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.Save(LaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 432
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.Create(LaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-30 10:35:57.167 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-30 10:35:57.207 +07:00 [Information] Hosting environment: "Development"
+2023-05-30 10:35:57.209 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-30 10:36:20.470 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.Save(LaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 432
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.Create(LaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-30 10:44:01.383 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.Save(LaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 432
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.Create(LaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-30 10:44:03.163 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.Save(LaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 432
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.Create(LaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-30 10:44:11.967 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-30 10:44:11.998 +07:00 [Information] Hosting environment: "Development"
+2023-05-30 10:44:12.000 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-30 10:48:17.093 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.Save(LaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 432
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.Create(LaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-30 10:50:25.517 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.Save(LaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 432
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.Create(LaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-30 10:50:27.457 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.Save(LaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 432
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.Create(LaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-30 11:09:15.266 +07:00 [Error] Mã đã tồn tại
+   at XichLip.WebApi.Utilities.ResponseHelper.ToResponse(Boolean result, Int32 statusCode, String message) in D:\XichLip\XichLip.WebApi\Utilities\ResponseHelper.cs:line 19
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.Save(LaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 446
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.Create(LaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-30 11:09:25.000 +07:00 [Error] Mã đã tồn tại
+   at XichLip.WebApi.Utilities.ResponseHelper.ToResponse(Boolean result, Int32 statusCode, String message) in D:\XichLip\XichLip.WebApi\Utilities\ResponseHelper.cs:line 19
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.Save(LaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 446
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.Create(LaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-30 11:09:43.261 +07:00 [Error] Mã đã tồn tại
+   at XichLip.WebApi.Utilities.ResponseHelper.ToResponse(Boolean result, Int32 statusCode, String message) in D:\XichLip\XichLip.WebApi\Utilities\ResponseHelper.cs:line 19
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.Save(LaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 446
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.Create(LaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-30 11:09:48.031 +07:00 [Error] Mã đã tồn tại
+   at XichLip.WebApi.Utilities.ResponseHelper.ToResponse(Boolean result, Int32 statusCode, String message) in D:\XichLip\XichLip.WebApi\Utilities\ResponseHelper.cs:line 19
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.Save(LaborMachineQuotaSettingModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 446
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.Create(LaborMachineQuotaSettingModel model) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-05-30 11:40:53.897 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-30 11:40:53.931 +07:00 [Information] Hosting environment: "Development"
+2023-05-30 11:40:53.934 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-30 14:21:45.469 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-30 14:21:45.503 +07:00 [Information] Hosting environment: "Development"
+2023-05-30 14:21:45.505 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-30 14:32:55.423 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-30 14:32:55.452 +07:00 [Information] Hosting environment: "Development"
+2023-05-30 14:32:55.454 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-30 15:06:07.051 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-30 15:06:07.079 +07:00 [Information] Hosting environment: "Development"
+2023-05-30 15:06:07.083 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-30 15:13:32.428 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-30 15:13:32.466 +07:00 [Information] Hosting environment: "Development"
+2023-05-30 15:13:32.468 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-30 15:32:48.978 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-30 15:32:49.008 +07:00 [Information] Hosting environment: "Development"
+2023-05-30 15:32:49.010 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"

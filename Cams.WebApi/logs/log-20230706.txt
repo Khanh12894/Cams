@@ -1,0 +1,36 @@
+2023-07-06 10:14:02.697 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-06 10:14:02.727 +07:00 [Information] Hosting environment: "Development"
+2023-07-06 10:14:02.729 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-06 10:24:00.100 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-06 10:24:00.129 +07:00 [Information] Hosting environment: "Development"
+2023-07-06 10:24:00.132 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-06 10:29:39.072 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-06 10:29:39.104 +07:00 [Information] Hosting environment: "Development"
+2023-07-06 10:29:39.107 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-06 10:30:46.831 +07:00 [Error] Procedure or function mpp_MonthProductPlan_GetListPlanDetail has too many arguments specified.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1013
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListMonthPlanDetail(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 2050
+
+2023-07-06 10:30:46.881 +07:00 [Error] Procedure or function mpp_MonthProductPlan_GetListPlanDetail has too many arguments specified.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListMonthPlanDetail(MonthProductPlanRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 2368
+   at XichLip.WebApi.Controllers.MonthProductPlanController.ListPlanDetail(MonthProductPlanRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 251
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-07-06 13:44:45.510 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-06 13:44:45.542 +07:00 [Information] Hosting environment: "Development"
+2023-07-06 13:44:45.544 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-07-06 14:06:39.721 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-07-06 14:06:39.751 +07:00 [Information] Hosting environment: "Development"
+2023-07-06 14:06:39.754 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"

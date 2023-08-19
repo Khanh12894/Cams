@@ -1,0 +1,254 @@
+2023-05-24 10:04:47.500 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 10:04:47.535 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 10:04:47.537 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 10:04:48.852 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3422
+
+2023-05-24 10:04:48.934 +07:00 [Error] One or more errors occurred. (Object reference not set to an instance of an object.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.MonthProductPlanController.GetListLaborUsage(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 761
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3461
+2023-05-24 10:06:50.681 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3422
+
+2023-05-24 10:06:50.722 +07:00 [Error] One or more errors occurred. (Object reference not set to an instance of an object.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.MonthProductPlanController.GetListLaborUsage(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 761
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3461
+2023-05-24 10:07:01.823 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3422
+
+2023-05-24 10:07:01.866 +07:00 [Error] One or more errors occurred. (Object reference not set to an instance of an object.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.MonthProductPlanController.GetListLaborUsage(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 761
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3461
+2023-05-24 10:10:19.044 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3422
+
+2023-05-24 10:10:19.086 +07:00 [Error] One or more errors occurred. (Object reference not set to an instance of an object.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.MonthProductPlanController.GetListLaborUsage(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 761
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3461
+2023-05-24 10:12:12.271 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 10:12:12.301 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 10:12:12.303 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 10:12:54.442 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3421
+
+2023-05-24 10:12:54.491 +07:00 [Error] One or more errors occurred. (Object reference not set to an instance of an object.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.MonthProductPlanController.GetListLaborUsage(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 761
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3474
+2023-05-24 10:15:38.567 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 10:15:38.597 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 10:15:38.599 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 10:16:00.158 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 10:16:00.191 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 10:16:00.193 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 10:16:08.982 +07:00 [Error] Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3421
+
+2023-05-24 10:16:09.031 +07:00 [Error] One or more errors occurred. (Object reference not set to an instance of an object.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.MonthProductPlanController.GetListLaborUsage(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 761
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Object reference not set to an instance of an object.
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3474
+2023-05-24 10:18:01.130 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 10:18:01.163 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 10:18:01.165 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 10:21:32.986 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 10:21:33.033 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 10:21:33.036 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 10:22:24.226 +07:00 [Error] Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3422
+
+2023-05-24 10:22:24.276 +07:00 [Error] One or more errors occurred. (Sequence contains no elements)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.MonthProductPlanController.GetListLaborUsage(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\MonthProductPlanController.cs:line 761
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Sequence contains no elements
+   at XichLip.WebApi.Repositories.MonthProductPlanRepository.GetListLaborUsage2(GetListLaborUsageRequestModel model) in D:\XichLip\XichLip.WebApi\Repositories\MonthProductPlanRepository.cs:line 3476
+2023-05-24 10:25:59.854 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 10:25:59.887 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 10:25:59.889 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 11:15:17.347 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 11:15:17.379 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 11:15:17.381 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 11:20:23.478 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 11:20:23.509 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 11:20:23.511 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 14:49:29.395 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 14:49:29.428 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 14:49:29.431 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 14:50:52.489 +07:00 [Error] Could not find stored procedure 'sec_User_Tokens_Save'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at XichLip.WebApi.Repositories.UserRepositories.SaveRefreshToken(UserTokensModel model) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 428
+
+2023-05-24 14:56:31.276 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 14:56:31.329 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 14:56:31.334 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 15:10:23.701 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 15:10:23.740 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 15:10:23.745 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 16:25:39.439 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:25:39.468 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 16:25:39.470 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 16:25:55.001 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:25:55.034 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 16:25:55.036 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 16:26:15.000 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:26:15.031 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 16:26:15.033 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 16:27:01.874 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:27:01.915 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 16:27:01.917 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 16:28:09.075 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:28:09.107 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 16:28:09.110 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 16:30:15.330 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:30:15.365 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 16:30:15.367 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 16:31:37.619 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:31:37.648 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 16:31:37.650 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 16:32:01.710 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:32:01.743 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 16:32:01.745 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 16:45:19.772 +07:00 [Information] Now listening on: "http://localhost:5001"
+2023-05-24 16:45:19.842 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:45:19.846 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 16:45:19.848 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 16:45:20.943 +07:00 [Warning] Failed to determine the https port for redirect.
+2023-05-24 17:03:19.061 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 17:03:19.093 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 17:03:19.096 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 17:10:48.239 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 17:10:48.272 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 17:10:48.275 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 17:14:07.304 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 17:14:07.353 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 17:14:07.357 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 17:18:04.810 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 17:18:04.841 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 17:18:04.844 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 17:18:06.445 +07:00 [Error] One or more errors occurred. (Invalid column name 'WarehouseId'.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.ProductController.ListNC(ProductRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\ProductController.cs:line 376
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Invalid column name 'WarehouseId'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1013
+   at XichLip.WebApi.Repositories.ProductRepository.ListNC(ProductRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\ProductRepository.cs:line 670
+2023-05-24 17:18:19.575 +07:00 [Error] One or more errors occurred. (Invalid column name 'WarehouseId'.)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at XichLip.WebApi.Controllers.ProductController.ListNC(ProductRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\ProductController.cs:line 376
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Invalid column name 'WarehouseId'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1013
+   at XichLip.WebApi.Repositories.ProductRepository.ListNC(ProductRequestModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\ProductRepository.cs:line 670
+2023-05-24 17:40:58.093 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 17:40:58.121 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 17:40:58.123 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 17:49:58.889 +07:00 [Information] Now listening on: "http://localhost:5001"
+2023-05-24 17:49:58.913 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 17:49:58.914 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 17:49:58.915 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 17:49:59.684 +07:00 [Warning] Failed to determine the https port for redirect.
+2023-05-24 17:50:29.851 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 17:50:29.883 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 17:50:29.885 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-24 17:55:21.220 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-24 17:55:21.247 +07:00 [Information] Hosting environment: "Development"
+2023-05-24 17:55:21.249 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"

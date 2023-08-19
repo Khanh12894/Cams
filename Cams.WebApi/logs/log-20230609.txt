@@ -1,0 +1,82 @@
+2023-06-09 10:52:43.398 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 10:52:43.432 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 10:52:43.436 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 10:59:39.337 +07:00 [Error] Procedure or function 'set_LaborMachineQuotaSetting_View_AddMachine' expects parameter '@LaborMachineQuotaSettingProductMachineXrefId', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.ViewAddMachine(LaborMachineQuotaSettingProductMachineModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 1727
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.ViewAddMachine(LaborMachineQuotaSettingProductMachineModel model, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 307
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-06-09 11:01:03.736 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 11:01:03.765 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 11:01:03.767 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 15:38:16.037 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 15:38:16.068 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 15:38:16.070 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 15:53:20.185 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 15:53:20.217 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 15:53:20.219 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 16:00:32.837 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 16:00:32.863 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 16:00:32.865 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 16:02:07.703 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 16:02:07.731 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 16:02:07.733 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 16:56:59.604 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 16:56:59.634 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 16:56:59.636 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 17:02:52.257 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 17:02:52.285 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 17:02:52.287 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 17:13:51.189 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 17:13:51.218 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 17:13:51.220 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 18:04:36.514 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 18:04:36.545 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 18:04:36.547 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 18:04:47.943 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 18:04:47.976 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 18:04:47.978 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 18:22:20.862 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 18:22:20.891 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 18:22:20.893 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 18:25:02.129 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 18:25:02.175 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 18:25:02.178 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 18:25:03.081 +07:00 [Error] Could not find stored procedure 'sec_User_Tokens_Save'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at XichLip.WebApi.Repositories.UserRepositories.SaveRefreshToken(UserTokensModel model) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 459
+
+2023-06-09 18:57:14.998 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 18:57:15.071 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 18:57:15.073 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 18:59:43.778 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 18:59:43.808 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 18:59:43.810 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-09 19:02:14.902 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-09 19:02:14.936 +07:00 [Information] Hosting environment: "Development"
+2023-06-09 19:02:14.939 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"

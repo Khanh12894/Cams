@@ -1,0 +1,10 @@
+D:\XichLip\XichLip.Core\bin\Debug\netcoreapp3.1\XichLip.Core.deps.json
+D:\XichLip\XichLip.Core\bin\Debug\netcoreapp3.1\XichLip.Core.dll
+D:\XichLip\XichLip.Core\bin\Debug\netcoreapp3.1\XichLip.Core.pdb
+D:\XichLip\XichLip.Core\obj\Debug\netcoreapp3.1\XichLip.Core.csproj.AssemblyReference.cache
+D:\XichLip\XichLip.Core\obj\Debug\netcoreapp3.1\XichLip.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\XichLip\XichLip.Core\obj\Debug\netcoreapp3.1\XichLip.Core.AssemblyInfoInputs.cache
+D:\XichLip\XichLip.Core\obj\Debug\netcoreapp3.1\XichLip.Core.AssemblyInfo.cs
+D:\XichLip\XichLip.Core\obj\Debug\netcoreapp3.1\XichLip.Core.csproj.CoreCompileInputs.cache
+D:\XichLip\XichLip.Core\obj\Debug\netcoreapp3.1\XichLip.Core.dll
+D:\XichLip\XichLip.Core\obj\Debug\netcoreapp3.1\XichLip.Core.pdb

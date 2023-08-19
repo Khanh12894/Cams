@@ -1,0 +1,12 @@
+2023-06-19 14:19:26.412 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-19 14:19:26.449 +07:00 [Information] Hosting environment: "Development"
+2023-06-19 14:19:26.480 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-19 16:23:13.700 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-19 16:23:13.729 +07:00 [Information] Hosting environment: "Development"
+2023-06-19 16:23:13.732 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-19 16:26:59.409 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-19 16:26:59.439 +07:00 [Information] Hosting environment: "Development"
+2023-06-19 16:26:59.441 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-19 16:28:29.767 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-19 16:28:29.794 +07:00 [Information] Hosting environment: "Development"
+2023-06-19 16:28:29.796 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"

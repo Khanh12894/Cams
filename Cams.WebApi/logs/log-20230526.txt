@@ -1,0 +1,142 @@
+2023-05-26 09:53:23.192 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 09:53:23.222 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 09:53:23.225 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-26 09:54:47.660 +07:00 [Error] Invalid column name 'SubjectId'.
+Invalid column name 'ProviderName'.
+Invalid column name 'ProviderSubjectId'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1013
+   at XichLip.WebApi.Repositories.UserRepositories.FindByNameAsync(String normalizedUserName) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 382
+
+2023-05-26 09:54:47.708 +07:00 [Error] Invalid column name 'SubjectId'.
+Invalid column name 'ProviderName'.
+Invalid column name 'ProviderSubjectId'.
+   at XichLip.WebApi.Repositories.UserRepositories.FindByNameAsync(String normalizedUserName) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 394
+   at XichLip.WebApi.Controllers.AuthController.Login(UserSSOModel model) in D:\XichLip\XichLip.WebApi\Controllers\AuthController.cs:line 80
+
+2023-05-26 10:20:08.230 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 10:20:08.259 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 10:20:08.261 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-26 10:40:43.880 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 10:40:43.917 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 10:40:43.920 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-26 10:44:03.843 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 10:44:03.872 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 10:44:03.874 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-26 10:50:52.032 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 10:50:52.059 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 10:50:52.061 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-26 10:51:08.100 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 10:51:08.128 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 10:51:08.131 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-26 10:51:52.385 +07:00 [Error] Invalid column name 'SubjectId'.
+Invalid column name 'ProviderName'.
+Invalid column name 'ProviderSubjectId'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1013
+   at XichLip.WebApi.Repositories.UserRepositories.FindByNameAsync(String normalizedUserName) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 382
+
+2023-05-26 10:52:18.192 +07:00 [Error] Invalid column name 'SubjectId'.
+Invalid column name 'ProviderName'.
+Invalid column name 'ProviderSubjectId'.
+   at XichLip.WebApi.Repositories.UserRepositories.FindByNameAsync(String normalizedUserName) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 394
+   at XichLip.WebApi.Controllers.AuthController.Login(UserSSOModel model) in D:\XichLip\XichLip.WebApi\Controllers\AuthController.cs:line 80
+
+2023-05-26 10:52:26.349 +07:00 [Error] Invalid column name 'SubjectId'.
+Invalid column name 'ProviderName'.
+Invalid column name 'ProviderSubjectId'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1013
+   at XichLip.WebApi.Repositories.UserRepositories.FindByNameAsync(String normalizedUserName) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 382
+
+2023-05-26 10:52:35.576 +07:00 [Error] Invalid column name 'SubjectId'.
+Invalid column name 'ProviderName'.
+Invalid column name 'ProviderSubjectId'.
+   at XichLip.WebApi.Repositories.UserRepositories.FindByNameAsync(String normalizedUserName) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 394
+   at XichLip.WebApi.Controllers.AuthController.Login(UserSSOModel model) in D:\XichLip\XichLip.WebApi\Controllers\AuthController.cs:line 80
+
+2023-05-26 10:52:43.869 +07:00 [Error] Invalid column name 'SubjectId'.
+Invalid column name 'ProviderName'.
+Invalid column name 'ProviderSubjectId'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1013
+   at XichLip.WebApi.Repositories.UserRepositories.FindByNameAsync(String normalizedUserName) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 382
+
+2023-05-26 11:03:53.321 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 11:03:53.348 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 11:03:53.350 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-26 17:18:13.767 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 17:18:13.799 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 17:18:13.802 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-26 17:27:02.450 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 17:27:02.480 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 17:27:02.482 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-26 17:46:55.651 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 17:46:55.704 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 17:46:55.707 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-26 18:14:11.782 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 18:14:11.814 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 18:14:11.817 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-26 18:16:41.880 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 18:16:41.961 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 18:16:41.969 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-26 18:16:43.257 +07:00 [Error] Error parsing column 2 (ProvinceName=Quảng Bình - String)
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3665
+   at Deserialize252d1cf5-3cad-4b35-9ba2-98c501b5e9f8(IDataReader )
+   at Dapper.SqlMapper.GridReader.ReadBufferedAsync[T](Int32 index, Func`2 deserializer)
+   at Dapper.SqlMapper.GridReader.ReadBufferedAsync[T](Int32 index, Func`2 deserializer)
+   at XichLip.WebApi.Repositories.CustomerRepository.Get(Int64 id)
+Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt64(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt64(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize252d1cf5-3cad-4b35-9ba2-98c501b5e9f8(IDataReader )
+2023-05-26 18:16:43.315 +07:00 [Error] Error parsing column 2 (ProvinceName=Quảng Bình - String)
+   at XichLip.WebApi.Repositories.CustomerRepository.Get(Int64 id) in D:\XichLip\XichLip.WebApi\Repositories\CustomerRepository.cs:line 120
+   at XichLip.WebApi.Controllers.CustomerController.Get(Int64 id) in D:\XichLip\XichLip.WebApi\Controllers\CustomerController.cs:line 76
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt64(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt64(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize252d1cf5-3cad-4b35-9ba2-98c501b5e9f8(IDataReader )
+2023-05-26 18:17:13.175 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 18:17:13.206 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 18:17:13.216 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-05-26 18:33:14.259 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-05-26 18:33:14.288 +07:00 [Information] Hosting environment: "Development"
+2023-05-26 18:33:14.290 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"

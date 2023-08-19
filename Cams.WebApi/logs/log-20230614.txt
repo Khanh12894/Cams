@@ -1,0 +1,52 @@
+2023-06-14 18:25:40.586 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-14 18:25:40.624 +07:00 [Information] Hosting environment: "Development"
+2023-06-14 18:25:40.627 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-14 18:28:21.148 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-14 18:28:21.177 +07:00 [Information] Hosting environment: "Development"
+2023-06-14 18:28:21.179 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-14 18:28:22.524 +07:00 [Error] Procedure or function 'set_LaborMachineQuotaSetting_Product_Save' expects parameter '@LaborMachineQuotaSettingProductId', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.CopyBOM(Int64 BOMSettingId, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 1740
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.CopyBom(Int64 BOMSettingId, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 327
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-06-14 18:28:49.155 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-14 18:28:49.231 +07:00 [Information] Hosting environment: "Development"
+2023-06-14 18:28:49.264 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-14 18:28:49.999 +07:00 [Error] Procedure or function set_LaborMachineQuotaSetting_Copy has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at XichLip.WebApi.Repositories.LaborMachineQuotaSettingRepository.CopyBOM(Int64 BOMSettingId, Int64 userId) in D:\XichLip\XichLip.WebApi\Repositories\LaborMachineQuotaSettingRepository.cs:line 1740
+   at XichLip.WebApi.Controllers.LaborMachineQuotaSettingController.CopyBom(Int64 BOMSettingId, Int64 userId) in D:\XichLip\XichLip.WebApi\Controllers\LaborMachineQuotaSettingController.cs:line 327
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-06-14 18:30:17.328 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-14 18:30:17.358 +07:00 [Information] Hosting environment: "Development"
+2023-06-14 18:30:17.360 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"

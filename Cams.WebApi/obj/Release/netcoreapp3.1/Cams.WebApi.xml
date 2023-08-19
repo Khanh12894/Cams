@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cams.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:XichLip.WebApi.Controllers.ProductController.GetList(XichLip.WebApi.Models.Product.ProductRequestModel)">
+            <summary>
+            khanh
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:XichLip.WebApi.Interfaces.IUserRepositories">
+            <summary>
+            Interface IUserRepositories
+            </summary>
+            Created By: KietNQ
+            Created Time: 2022/11/21
+            Updated By:
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.RoleClaims.RoleClaimsModel">
+            <summary>
+            Entity for table RoleClaimsModel
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/09/04
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.Role.RoleModel">
+            <summary>
+            Entity for table RoleModel
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/09/04
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.SmsOTP.CheckNumberSms">
+            <summary>
+            Entity for table VehicleModel
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/02/22
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.SmsOTP.ResponseSms">
+            <summary>
+            Entity for table VehicleModel
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/02/22
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.Teacher.TeacherModel">
+            <summary>
+            Entity for table TeacherModel
+            </summary>
+            Created By: KietNQ
+            Created Time: 2021/03/24
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.Teacher.TeacherRequestModel">
+            <summary>
+            Entity for table Teacher
+            </summary>
+            Created By: KietNQ
+            Created Time: 2021/03/24
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.UserClaims.UserClaimsModel">
+            <summary>
+            Entity for table UserClaimsModel
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/09/04
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.UserLogins.UserLoginsModel">
+            <summary>
+            Entity for table UserLoginsModel
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/09/04
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.UserRoles.UserRolesModel">
+            <summary>
+            Entity for table UserRolesModel
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/09/04
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.User.UserChangePasswordModel">
+            <summary>
+            User register model
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/09/04
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.User.UserLoginModel">
+            <summary>
+            User register model
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/09/04
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.User.UserModel">
+            <summary>
+            Entity for table UserModel
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/09/04
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.User.UserRegisterModel">
+            <summary>
+            User register model
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/09/04
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.User.UserRequestModel">
+            <summary>
+            Entity for table UserModel
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/09/12
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.User.UserUpdateModel">
+            <summary>
+            User register model
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/09/04
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Models.UserTokens.UserTokensModel">
+            <summary>
+            Entity for table UserTokensModel
+            </summary>
+            Created By: KietNQ
+            Created Time: 2019/09/04
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="T:XichLip.WebApi.Repositories.UserRepositories">
+            <summary>
+            UserRepositories
+            </summary>
+            Created By: KietNQ
+            Created Time: 2022/11/21
+            Updated By: 
+            Updated Time:
+        </member>
+        <member name="M:XichLip.WebApi.Utilities.EncryptHelper.Encrypt(System.String)">
+            <summary>
+            Encrypts the specified value
+            </summary>
+            <param name="value">The value</param>
+            <returns></returns>
+        </member>
+        <member name="M:XichLip.WebApi.Utilities.EncryptHelper.Decrypt(System.String)">
+            <summary>
+            Decrypts the specified value
+            </summary>
+            <param name="value">The value</param>
+            <returns></returns>
+        </member>
+        <member name="M:XichLip.WebApi.Utilities.EncryptHelper.TripleDESEncryption(System.String)">
+            <summary>
+            Triples the DES encryption.
+            </summary>
+            <param name="value">The value</param>
+            <returns></returns>
+        </member>
+        <member name="M:XichLip.WebApi.Utilities.EncryptHelper.TripleDESDecryption(System.String)">
+            <summary>
+            Triples the DES decryption.
+            </summary>
+            <param name="value">The value</param>
+            <returns></returns>
+        </member>
+        <member name="M:XichLip.WebApi.Utilities.FileUtils.MergeFile(System.String)">
+            <summary>
+            original name + ".part_N.X" (N = file part number, X = total files)
+            Objective = enumerate files in folder, look for all matching parts of split file. If found, merge and return true.
+            </summary>
+            <param name="FileName"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

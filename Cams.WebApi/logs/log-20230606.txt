@@ -1,0 +1,50 @@
+2023-06-06 09:50:46.432 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-06 09:50:46.469 +07:00 [Information] Hosting environment: "Development"
+2023-06-06 09:50:46.472 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-06 09:55:32.839 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-06 09:55:32.871 +07:00 [Information] Hosting environment: "Development"
+2023-06-06 09:55:32.873 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-06 09:55:36.198 +07:00 [Error] Invalid column name 'TotalLabor'.
+Invalid column name 'TotalLabor'.
+Invalid column name 'totalLabor'.
+Invalid column name 'TotalLabor'.
+Invalid column name 'TotalLabor'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at XichLip.WebApi.Repositories.ProductionTeamRepository.List(SearchProductionTeamModel model) in D:\XichLip\XichLip.WebApi\Repositories\ProductionTeamRepository.cs:line 53
+   at XichLip.WebApi.Controllers.ProductionTeamController.List(SearchProductionTeamModel model) in D:\XichLip\XichLip.WebApi\Controllers\ProductionTeamController.cs:line 44
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2023-06-06 09:56:03.007 +07:00 [Error] Invalid column name 'TotalLabor'.
+Invalid column name 'TotalLabor'.
+Invalid column name 'totalLabor'.
+Invalid column name 'TotalLabor'.
+Invalid column name 'TotalLabor'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at XichLip.WebApi.Repositories.ProductionTeamRepository.List(SearchProductionTeamModel model) in D:\XichLip\XichLip.WebApi\Repositories\ProductionTeamRepository.cs:line 53
+   at XichLip.WebApi.Controllers.ProductionTeamController.List(SearchProductionTeamModel model) in D:\XichLip\XichLip.WebApi\Controllers\ProductionTeamController.cs:line 44
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+

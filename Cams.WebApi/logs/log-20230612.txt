@@ -1,0 +1,84 @@
+2023-06-12 09:09:09.625 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-12 09:09:09.665 +07:00 [Information] Hosting environment: "Development"
+2023-06-12 09:09:09.667 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-12 12:02:09.347 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-12 12:02:09.378 +07:00 [Information] Hosting environment: "Development"
+2023-06-12 12:02:09.380 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-12 12:02:56.395 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-12 12:02:56.425 +07:00 [Information] Hosting environment: "Development"
+2023-06-12 12:02:56.427 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-12 13:51:14.882 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-12 13:51:14.910 +07:00 [Information] Hosting environment: "Development"
+2023-06-12 13:51:14.912 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-12 13:52:37.784 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-12 13:52:37.815 +07:00 [Information] Hosting environment: "Development"
+2023-06-12 13:52:37.817 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-12 13:53:51.802 +07:00 [Error] Could not find stored procedure 'sec_User_Tokens_Save'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at XichLip.WebApi.Repositories.UserRepositories.SaveRefreshToken(UserTokensModel model) in D:\XichLip\XichLip.WebApi\Repositories\UserRepositories.cs:line 459
+
+2023-06-12 14:54:44.282 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-12 14:54:44.316 +07:00 [Information] Hosting environment: "Development"
+2023-06-12 14:54:44.318 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-12 14:59:48.991 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-12 14:59:49.023 +07:00 [Information] Hosting environment: "Development"
+2023-06-12 14:59:49.025 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
+2023-06-12 15:02:02.918 +07:00 [Error] Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.ReadAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.GridReader.ReadBufferedAsync[T](Int32 index, Func`2 deserializer) in /_/Dapper/SqlMapper.GridReader.Async.cs:line 231
+   at Dapper.SqlMapper.GridReader.ReadBufferedAsync[T](Int32 index, Func`2 deserializer) in /_/Dapper/SqlMapper.GridReader.Async.cs:line 241
+   at XichLip.WebApi.Repositories.PlanLaborAvailabilityRepository.GetList(PlanLaborAvailabilityRequestModel requestModel) in D:\XichLip\XichLip.WebApi\Repositories\PlanLaborAvailabilityRepository.cs:line 52
+The wait operation timed out.
+
+2023-06-12 15:02:02.963 +07:00 [Error] Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at XichLip.WebApi.Repositories.PlanLaborAvailabilityRepository.GetList(PlanLaborAvailabilityRequestModel requestModel) in D:\XichLip\XichLip.WebApi\Repositories\PlanLaborAvailabilityRepository.cs:line 131
+   at XichLip.WebApi.Controllers.PlanLaborAvailabilityController.List(PlanLaborAvailabilityRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\PlanLaborAvailabilityController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+The wait operation timed out.
+
+2023-06-12 15:02:04.020 +07:00 [Error] Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.ReadAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.GridReader.ReadBufferedAsync[T](Int32 index, Func`2 deserializer) in /_/Dapper/SqlMapper.GridReader.Async.cs:line 231
+   at Dapper.SqlMapper.GridReader.ReadBufferedAsync[T](Int32 index, Func`2 deserializer) in /_/Dapper/SqlMapper.GridReader.Async.cs:line 241
+   at XichLip.WebApi.Repositories.PlanLaborAvailabilityRepository.GetList(PlanLaborAvailabilityRequestModel requestModel) in D:\XichLip\XichLip.WebApi\Repositories\PlanLaborAvailabilityRepository.cs:line 52
+The wait operation timed out.
+
+2023-06-12 15:02:04.057 +07:00 [Error] Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at XichLip.WebApi.Repositories.PlanLaborAvailabilityRepository.GetList(PlanLaborAvailabilityRequestModel requestModel) in D:\XichLip\XichLip.WebApi\Repositories\PlanLaborAvailabilityRepository.cs:line 131
+   at XichLip.WebApi.Controllers.PlanLaborAvailabilityController.List(PlanLaborAvailabilityRequestModel model) in D:\XichLip\XichLip.WebApi\Controllers\PlanLaborAvailabilityController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+The wait operation timed out.
+
+2023-06-12 17:35:33.302 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-06-12 17:35:33.331 +07:00 [Information] Hosting environment: "Development"
+2023-06-12 17:35:33.333 +07:00 [Information] Content root path: "D:\XichLip\XichLip.WebApi"
